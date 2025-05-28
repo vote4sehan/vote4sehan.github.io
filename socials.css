@@ -1,0 +1,124 @@
+body {
+    background: #f8faff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.socials-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: radial-gradient(circle at 50% 50%, #63b5fd, #005fdc, #0004e6);
+}
+
+.socials-section h2 {
+    font-family: logoFont;
+    font-size: 100px;
+    color: #ffffff67;
+    margin: 0 0 1vh 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.socials-caption {
+    font-size: 1.3rem;
+    color: #0000005a;
+    margin-bottom: 3vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.socials-list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto;
+}
+
+.social-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(circle at 50% 50%, #ff2b2b, #b90101);;
+    border-radius: 1.5em;
+    box-shadow: 0 4px 24px #1a237e18;
+    padding: 1.2em 2em;
+    text-decoration: none;
+    transition: box-shadow 0.2s, background 0.2s;
+    border: 2px solid #e0e7ff;
+    cursor: pointer;
+    min-height: 70px;
+}
+.social-box:hover {
+    background: #e3eaff;
+    box-shadow: 0 8px 32px #1a237e33;
+    border-color: #1a237e;
+}
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 1.5em;
+    object-fit: contain;
+}
+.social-name {
+    flex: 1;
+    font-size: 1.35rem;
+    color: #1a237e;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.social-arrow {
+    width: 28px;
+    height: 28px;
+    margin-left: 1.5em;
+    opacity: 0.7;
+    object-fit: contain;
+}
+
+@media (max-width: 700px) {
+    .socials-section h2 {
+        font-size: 2.5rem;
+    }
+    .socials-list {
+        max-width: 95vw;
+        gap: 1.2rem;
+    }
+    .social-box {
+        padding: 1em 1em;
+        min-height: 56px;
+    }
+    .social-icon {
+        width: 32px;
+        height: 32px;
+        margin-right: 1em;
+    }
+    .social-arrow {
+        width: 20px;
+        height: 20px;
+        margin-left: 1em;
+    }
+    .social-name {
+        font-size: 1.05rem;
+    }
+}
+.footer {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle at 50% 50%, #0088ff, #000dff);
+    height: 100%;
+    text-align: center;
+    font-size: 10vh;
+    color: rgba(255, 255, 255, 0.267);
+    font-family: logoFont;
+}

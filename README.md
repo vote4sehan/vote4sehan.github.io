@@ -1,2 +1,2 @@
 # vote4sehan.github.io
-Vote 4 Sehan, for TDSB's Student Senate LC2 Comms.
+Vote 4 Sehan, for TDSB's Student Senate Comms. Officer

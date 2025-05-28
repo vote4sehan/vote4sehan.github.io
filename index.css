@@ -1,0 +1,232 @@
+.experience {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    background: radial-gradient(circle at 50% 50%, #e4fdff, #bbedff 80%);
+    padding: 0;
+    margin: 0;
+}
+.experience-content {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 4vh 2vw 6vh 2vw;
+}
+.experience-content h2 {
+    font-family: logoFont;
+    font-size: 100px;
+    color: #1a237e;
+    margin-bottom: 2vh;
+    letter-spacing: 2px;
+}
+.experience-content p {
+    font-weight: bolder;
+    color: rgba(4, 0, 59, 0.855);
+    margin-bottom: 3vh;
+    line-height: 1.7;
+}
+.graphics-btn {
+    display: inline-block;
+    padding: 0.75em 2em;
+    background: #1a237e;
+    color: #fff;
+    border: none;
+    border-radius: 2em;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    box-shadow: 0 2px 12px #1a237e22;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-bottom: 1vh;
+}
+.graphics-btn:hover {
+    background: #3949ab;
+    color: #ffffff;
+    box-shadow: 0 4px 24px #1a237e33;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.landing {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle at 50% 50%, #63b5fd, #005fdc, #0004e6);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+}
+
+.landing-content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.landing-content h1 {
+    font-size: 38vh;
+    color: rgba(255, 255, 255, 0.267);
+    margin: 0;
+    padding: 0;
+    font-family: logoFont;
+    line-height: 38vh;
+}
+
+.landing-content p {
+    margin: 0;
+    padding: 0;
+    color: #ffffffaa;
+    font-weight: bolder;
+}
+
+.deskImage {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100vw;
+    overflow-x: hidden;
+    z-index: 2;
+    pointer-events: none;
+}
+.vision {
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle at 50% 50%, #ff005d, #ff0000, #b80000);
+    min-height: 100vh;
+    height: auto;
+    box-sizing: border-box;
+}
+.vision h2 {
+    padding: 0;
+    margin: 0;
+    padding-top: 9vh;
+    font-family: logoFont;
+    font-size: 100px;
+    color: rgba(59, 0, 0, 0.855);
+    text-align: center;
+}
+.leftRightContainer {
+    height: 100%;
+    width: 100%;
+}
+.vision-left {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin: 0;
+    width: 55%;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.vision-right {
+    padding: 0;
+    margin: 0;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: transparent;
+}
+.vision-left p {
+    padding: 0;
+    margin: 0;
+    font-weight: bolder;
+    color: rgba(59, 0, 0, 0.855);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5vh;
+}
+.vision-right img {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    height: 90%;
+    max-width: 90%;
+    max-height: 450px;
+    object-fit: contain;
+    aspect-ratio: auto;
+    margin: 0 auto;
+    background: #fff2;
+    padding: 50px;
+    border-radius: 35px;
+}
+
+.leftRightContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 0;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 850px) {
+    .vision-left{
+        width: auto;
+    }
+    .leftRightContainer {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 850px) {
+    .landing-content h1 {
+        font-size: 28vh;
+        color: rgba(255, 255, 255, 0.267);
+        margin: 0;
+        padding: 0;
+        font-family: logoFont;
+        line-height: 28vh;
+    }
+    .deskImage {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        width: 150vw;
+        overflow-x: hidden;
+        z-index: 2;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .landing-content h1 {
+        font-size: 25vh;
+        line-height: 25vh;
+        color: rgba(255, 255, 255, 0.267);
+        margin: 0;
+        padding: 0;
+        font-family: logoFont;
+    }
+}
+.footer {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    background: radial-gradient(circle at 50% 50%, #0088ff, #000dff);
+    height: 100%;
+    text-align: center;
+    font-size: 10vh;
+    color: rgba(255, 255, 255, 0.267);
+    font-family: logoFont;
+}
