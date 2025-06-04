@@ -80,6 +80,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: logoFont;
+    padding: 0;
     line-height: 38vh;
 }
 
@@ -88,6 +89,13 @@ body {
     padding: 0;
     color: #ffffffaa;
     font-weight: bolder;
+}
+.landing-content a {
+    margin: 0;
+    padding: 0;
+    color: #ffffffaa;
+    font-weight: bolder;
+    z-index: 1000;
 }
 
 .deskImage {
